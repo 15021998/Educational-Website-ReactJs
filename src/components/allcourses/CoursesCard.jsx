@@ -47,7 +47,7 @@ const CoursesCard = () => {
                   {val.priceAll} / {val.pricePer}
                 </h3>
               </div>
-              <button className='outline-btn'>EXPLORE NOW !</button>
+              <button className='outline-btn'>EXPLORE NOW !!</button>
             </div>
           ))}
         </div>
