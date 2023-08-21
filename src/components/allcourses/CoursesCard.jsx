@@ -26,16 +26,16 @@ const CoursesCard = () => {
                     <label htmlFor=''>(5.0)</label>
                   </div>
                   <div className='details'>
-                    {val.courTeacher.map((details) => (
+                    /{val.courTeacher.map((details) => (
                       <>
-                        <div className='box'>
+                        {/* <div className='box'>
                           <div className='dimg'>
                             <img src={details.dcover} alt='' />
                           </div>
                           <div className='para'>
                             <h4>{details.name}</h4>
                           </div>
-                        </div>
+                        </div> */}
                         <span>{details.totalTime}</span>
                       </>
                     ))}
@@ -47,7 +47,7 @@ const CoursesCard = () => {
                   {val.priceAll} / {val.pricePer}
                 </h3>
               </div>
-              <button className='outline-btn'>ENROLL NOW !</button>
+              <button className='outline-btn'>EXPLORE NOW !</button>
             </div>
           ))}
         </div>
